@@ -1,0 +1,166 @@
+/** @format */
+
+body {
+  background-color: hsl(148, 38%, 91%);
+  margin: auto;
+  width:auto;
+  height:auto;
+}
+
+.main-container {
+  width: 550px;
+  height: 540px;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+  margin: auto;
+  margin-top:70px ;
+}
+
+.container {
+  position: absolute;
+  padding-left: 30px;
+  margin: auto;
+}
+
+.div1 input {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+
+.div2 input {
+  position: absolute;
+  top: 100px;
+  left: 280px;
+  width: 220px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+
+.div2 label {
+  position: absolute;
+  top: 70px;
+  left: 280px;
+  width: 220px;
+}
+
+.div3 label {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+  width: 220px;
+}
+
+.div3 input {
+  position: absolute;
+  position: absolute;
+  top: 180px;
+  left: 30px;
+  width: 470px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+
+.div4 label {
+  position: absolute;
+  top: 230px;
+  left: 30px;
+  width: 220px;
+}
+
+.div5 {
+  position: absolute;
+  top: 270px;
+  left: 30px;
+  width: 220px;
+  border: 2px solid grey;
+  padding: 8px;
+  border-radius: 5px;
+  accent-color: hsl(169, 82%, 27%);
+}
+
+.div5:hover {
+   background-color: hsl(148, 38%, 91%); 
+  border: 2px solid hsl(169, 82%, 27%);
+}
+
+.div6 {
+  position: absolute;
+  top: 270px;
+  left: 280px;
+  width: 220px;
+  border: 2px solid grey;
+  padding: 8px;
+  border-radius: 5px;
+  accent-color: hsl(169, 82%, 27%);
+}
+
+.div6:hover {
+  background-color: hsl(148, 38%, 91%);
+  border: 2px solid hsl(169, 82%, 27%);
+}
+
+.div7 {
+  position: absolute;
+  top: 320px;
+  left: 20px;
+  width: 220px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+textarea {
+  position: absolute;
+  top: 360px;
+  width: 480px;
+  height: 60px;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+
+.div9 {
+  position: absolute;
+  top: 450px;
+  width: 480px;
+  height: 60px;
+  border-radius: 5px;
+  accent-color: hsl(169, 82%, 27%);
+}
+
+.div10 {
+  position: absolute;
+  top: 490px;
+  width: 480px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+input:hover {
+  border: 2px solid hsl(169, 82%, 27%);
+}
+
+textarea:hover {
+  border: 2px solid hsl(169, 82%, 27%);
+}
+
+label {
+  font-size: 16px;
+}
+
+#submit {
+  width: 485px;
+  background-color: hsl(169, 82%, 27%);
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+#submit:hover {
+  background-color: hsl(170, 95%, 14%);
+}
